@@ -50,17 +50,13 @@ class Sort{
 
 
 public class Demo1_sort {
-
-
     public static void main(String[] args) {
         // System.out.println("Hello world!");
         // int a[] = {10,9,8,7,6,5,4,3,2,1};
         int[] a = {7,6,1,3,4,5,8,10,9,2};
-
         Sort s = new Sort();
         s.select_sort(a);
         s.bubble_sort(a);
-
     }
 
 
